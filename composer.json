@@ -1,6 +1,6 @@
 {
     "name": "omisai/php-continents",
-    "description": "Laravel package to provide countries",
+    "description": "PHP package to provide continents",
     "license": "MIT",
     "keywords": [
         "continents",
