@@ -1,7 +1,7 @@
-[![Latest Stable Version](http://poser.pugx.orgomisai/php-continents/v)](https://packagist.org/packagesomisai/php-continents)
-[![Latest Unstable Version](http://poser.pugx.orgomisai/php-continents/v/unstable)](https://packagist.org/packagesomisai/php-continents)
-[![License](http://poser.pugx.orgomisai/php-continents/license)](https://packagist.org/packagesomisai/php-continents)
-[![PHP Version Require](http://poser.pugx.orgomisai/php-continents/require/php)](https://packagist.org/packagesomisai/php-continents)
+[![Latest Stable Version](http://poser.pugx.org/omisai/php-continents/v)](https://packagist.org/packages/omisai/php-continents)
+[![Latest Unstable Version](http://poser.pugx.org/omisai/php-continents/v/unstable)](https://packagist.org/packages/omisai/php-continents)
+[![License](http://poser.pugx.org/omisai/php-continents/license)](https://packagist.org/packages/omisai/php-continents)
+[![PHP Version Require](http://poser.pugx.org/omisai/php-continents/require/php)](https://packagist.org/packages/omisai/php-continents)
 
 # PHP Continents Package
 
