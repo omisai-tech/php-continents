@@ -41,6 +41,17 @@ class Collection
         return null;
     }
 
+    public function getContinentByNumeric(string $numeric): ?Continent
+    {
+        foreach ($this->continents as $continent) {
+            if ($continent->numeric === $numeric) {
+                return $continent;
+            }
+        }
+
+        return null;
+    }
+
     public function getContinentByName(string $name): ?Continent
     {
         foreach ($this->continents as $continent) {
