@@ -41,6 +41,6 @@
     },
     "extra": {},
     "scripts": {
-        "test": "./vendor/bin/pest"
+        "test": "./vendor/bin/pest --colors=always"
     }
 }
