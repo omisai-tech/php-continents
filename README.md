@@ -78,10 +78,6 @@ $europe->code; // "EU"
 
 Please see [CHANGELOG](CHANGELOG.md) for more information on what has changed recently.
 
-## Contributing
-
-Please see [CONTRIBUTING](CONTRIBUTING.md) for details.
-
 ## Testing
 
 ```bash
@@ -91,6 +87,10 @@ Please see [CONTRIBUTING](CONTRIBUTING.md) for details.
 
 composer test
 ```
+
+## Contributing
+
+Please see [CONTRIBUTING.md](CONTRIBUTING.md) for details on how to contribute to this project.
 
 ## Security
 
