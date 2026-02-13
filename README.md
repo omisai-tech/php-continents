@@ -1,6 +1,7 @@
 [![License](https://img.shields.io/packagist/l/omisai/php-continents?style=for-the-badge)](https://packagist.org/packages/omisai/omisai/php-continents)
 [![Latest Stable Version](https://img.shields.io/packagist/v/omisai/php-continents?style=for-the-badge)](https://packagist.org/packages/omisai/php-continents)
 [![PHP Version Require](https://img.shields.io/packagist/dependency-v/omisai/php-continents/php?style=for-the-badge)](https://packagist.org/packages/omisai/php-continents)
+[![Test](https://github.com/omisai-tech/php-continents/actions/workflows/test.yml/badge.svg)](https://github.com/omisai-tech/php-continents/actions/workflows/test.yml)
 
 # PHP Continents Package
 
