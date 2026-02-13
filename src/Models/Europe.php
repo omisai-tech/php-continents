@@ -9,12 +9,12 @@ class Europe extends Continent
     /**
      * Non-standardized alpha-2 code
      */
-    public string $code = "EU";
+    public string $code = 'EU';
 
     /**
      * UN M.49 numeric code
      */
-    public string $numeric = "150";
+    public string $numeric = '150';
 
     public static function getName(string $locale = 'en'): string
     {

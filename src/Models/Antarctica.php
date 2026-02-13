@@ -9,12 +9,12 @@ class Antarctica extends Continent
     /**
      * Non-standardized alpha-2 code
      */
-    public string $code = "AN";
+    public string $code = 'AN';
 
     /**
      * UN M.49 numeric code
      */
-    public string $numeric = "010";
+    public string $numeric = '010';
 
     public static function getName(string $locale = 'en'): string
     {

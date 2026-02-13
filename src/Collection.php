@@ -13,13 +13,13 @@ class Collection
 
     protected function loadContinents()
     {
-        $directory = new \DirectoryIterator(__DIR__ . '/Models');
+        $directory = new \DirectoryIterator(__DIR__.'/Models');
         foreach ($directory as $fileinfo) {
             if ($fileinfo->isFile() && $fileinfo->getExtension() === 'php') {
                 $className = $fileinfo->getBasename('.php');
                 $classFullName = "Omisai\\Continents\\Models\\$className";
                 if (class_exists($classFullName)) {
-                    $this->continents[] = new $classFullName();
+                    $this->continents[] = new $classFullName;
                 }
             }
         }

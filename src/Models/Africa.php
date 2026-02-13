@@ -9,12 +9,12 @@ class Africa extends Continent
     /**
      * Non-standardized alpha-2 code
      */
-    public string $code = "AF";
+    public string $code = 'AF';
 
     /**
      * UN M.49 numeric code
      */
-    public string $numeric = "002";
+    public string $numeric = '002';
 
     public static function getName(string $locale = 'en'): string
     {

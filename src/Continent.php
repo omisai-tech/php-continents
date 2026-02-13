@@ -31,11 +31,12 @@ abstract class Continent
 
     public function __get($property)
     {
-        if (method_exists($this, $method = 'get' . ucfirst($property))) {
+        if (method_exists($this, $method = 'get'.ucfirst($property))) {
             return $this->$method();
         }
 
-        trigger_error('Undefined property: ' . $property, E_USER_ERROR);
+        trigger_error('Undefined property: '.$property, E_USER_ERROR);
+
         return null;
     }
 }

@@ -9,12 +9,12 @@ class Oceania extends Continent
     /**
      * Non-standardized alpha-2 code
      */
-    public string $code = "OC";
+    public string $code = 'OC';
 
     /**
      * UN M.49 numeric code
      */
-    public string $numeric = "009";
+    public string $numeric = '009';
 
     public static function getName(string $locale = 'en'): string
     {

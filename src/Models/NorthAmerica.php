@@ -9,12 +9,12 @@ class NorthAmerica extends Continent
     /**
      * Non-standardized alpha-2 code
      */
-    public string $code = "NA";
+    public string $code = 'NA';
 
     /**
      * UN M.49 numeric code
      */
-    public string $numeric = "003";
+    public string $numeric = '003';
 
     public static function getName(string $locale = 'en'): string
     {

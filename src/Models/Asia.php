@@ -9,12 +9,12 @@ class Asia extends Continent
     /**
      * Non-standardized alpha-2 code
      */
-    public string $code = "AS";
+    public string $code = 'AS';
 
     /**
      * UN M.49 numeric code
      */
-    public string $numeric = "142";
+    public string $numeric = '142';
 
     public static function getName(string $locale = 'en'): string
     {

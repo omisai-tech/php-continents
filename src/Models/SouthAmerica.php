@@ -9,12 +9,12 @@ class SouthAmerica extends Continent
     /**
      * Non-standardized alpha-2 code
      */
-    public string $code = "SA";
+    public string $code = 'SA';
 
     /**
      * UN M.49 numeric code
      */
-    public string $numeric = "005";
+    public string $numeric = '005';
 
     public static function getName(string $locale = 'en'): string
     {
